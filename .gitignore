@@ -1,0 +1,15 @@
+# Folder Virtual Environment
+# Folder ini spesifik untuk komputermu dan bisa sangat besar.
+# Orang lain akan membuat virtual environment mereka sendiri.
+venv/
+
+# Folder cache Python
+# Dibuat otomatis oleh Python dan tidak perlu diupload.
+__pycache__/
+
+# File environment
+# INI YANG PALING PENTING! File ini berisi API Key rahasia Anda.
+.env
+
+# File kompilasi Python lainnya
+*.pyc
