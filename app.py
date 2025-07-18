@@ -15,7 +15,7 @@ except AttributeError as e:
     print(f"Error: {e}. Pastikan Anda telah mengatur variabel lingkungan dengan benar.")
     exit()
 
-@app.route('/chat', methos=["post"])
+@app.route('/', methods=["POST"])
 def chat():
     user_message = request.json.get("message")
 
