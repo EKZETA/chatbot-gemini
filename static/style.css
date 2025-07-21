@@ -60,7 +60,7 @@ body {
     background-color: #e5e5ea;
     color: #333;
     align-self: flex-start; 
-    border-bottom-left-radius: 4px; /
+    border-bottom-left-radius: 4px;
 }
 
 .chat-input {
